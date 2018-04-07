@@ -9,6 +9,6 @@ describe('meu-primeiro-projeto App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Bem Vindo a Aplicação Angular 2 - Padrão!');
   });
 });
