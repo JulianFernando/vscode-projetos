@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'arroba-input';
+  novoTitulo: string = "Novo Título gerado no componente Pai";
 }
